@@ -7,3 +7,17 @@ function totalPrice(prc, tax) {
 }
 console.log(totalPrice(prc, tax));
 
+var str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+function findAll(str,index){
+    let strind = str.split("");
+    if(strind.includes(index)){
+        for(let i=0;i<str.length; i++){
+            if(strind[i] === index)
+            console.log(`${i} "${index}"`);
+        }
+    }else{
+        console.log('Character not found');
+    }
+}
+findAll(str,'e')
+
