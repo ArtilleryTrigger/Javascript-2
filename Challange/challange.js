@@ -6,3 +6,4 @@ function totalPrice(prc, tax) {
     return totalprc;
 }
 console.log(totalPrice(prc, tax));
+
