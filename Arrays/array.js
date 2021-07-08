@@ -120,3 +120,11 @@ console.log('x=',x,'y=',y);*/
 // for (i of colors) console.log(i);
 // for (let i in colors) console.log(colors[i]);
 // colors.forEach(i=>console.log(i))*/ //içerisine call back function alır
+
+function whatDoesItDo(color){
+    if (color !== 'blue' || color !== 'green') {
+        color = 'red';
+    }
+    return color;
+}
+console.log(whatDoesItDo());
